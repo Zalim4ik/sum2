@@ -1,9 +1,12 @@
 #include <iostream>
+double sum(double a , double b) {
+	
+	return  a +b;
+}
 int main() {
-	int a, b , summ;
-	std:: cin >> a;
+	double a, b;
+	std::cin >> a;
 	std::cin >> b;
-	summ = a + b;
-	std::cout << summ;
+	std:: cout << sum(a , b);
 	return 0;
 }
